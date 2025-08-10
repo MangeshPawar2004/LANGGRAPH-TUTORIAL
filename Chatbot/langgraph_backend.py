@@ -5,12 +5,14 @@ from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.graph.message import add_messages
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 
 
 load_dotenv()
 
-llm=ChatGoogleGenerativeAI(model='gemini-2.5-flash')
+llm=ChatGroq(model='llama3-70b-8192')
+# llm=ChatGoogleGenerativeAI(model='gemini-2.5-flash')
 
 class ChatState(TypedDict):
     messages: Annotated[list[BaseMessage],add_messages]

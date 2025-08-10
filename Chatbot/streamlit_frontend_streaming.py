@@ -14,7 +14,7 @@ st.markdown("""
 }
 
 .stApp {
-    background-color: #476a6f; /* Magnolia */
+    background-color: #476a6f; 
     font-family: 'Segoe UI', sans-serif;
 }
 
@@ -24,7 +24,7 @@ st.markdown("""
     font-size: 24px;
     font-weight: bold;
     padding: 12px;
-    background: linear-gradient(90deg, #012622, #59114D); /* Dark green → Palatinate */
+    background: linear-gradient(90deg, #012622, #59114D); 
     border-radius: 12px;
     color: white;
     margin-bottom: 20px;
@@ -43,14 +43,14 @@ st.markdown("""
 
 /* User bubble */
 .user-message {
-    background-color: #140f2d; /* Dark green */
+    background-color: #140f2d; 
     color: white;
     align-self: flex-end;
 }
 
 /* Assistant bubble */
 .assistant-message {
-    background-color: #E98A15; /* Fulvous */
+    background-color: #E98A15; 
     color: black;
     align-self: flex-start;
 }
